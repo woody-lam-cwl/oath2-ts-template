@@ -1,0 +1,31 @@
+{
+  "name": "oath2-ts-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-check": "eslint . --ext .ts",
+    "lint-fix": "eslint . --ext .ts --fix",
+    "prettier-format": "prettier --config .prettierrc *.ts --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-woody-lam-cwl:woody-lam-cwl/oath2-ts-template"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
